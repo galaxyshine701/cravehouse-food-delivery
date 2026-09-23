@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CraveHouse delivers bold comfort food, bright drinks, and easy meal deals.">
+  <title>CraveHouse | Food worth gathering for</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="CraveHouse home"><span class="brand-mark">C</span><span>Crave<span>House</span></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation</span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#menu">Menu</a>
+        <a href="#deals">Deals</a>
+        <a href="#story">Our story</a>
+        <button class="cart-trigger nav-cart" type="button" aria-controls="cart-drawer" aria-expanded="false"><span class="cart-icon" aria-hidden="true">&#128722;</span> Cart <span class="cart-badge" aria-live="polite">0</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-media" aria-hidden="true">
+        <video autoplay muted loop playsinline preload="metadata" poster="assets/media/hero-food-poster.webp">
+          <source src="assets/media/hero-food-video.mp4" type="video/mp4">
+        </video>
+        <div class="hero-fallback"></div>
+      </div>
+      <div class="hero-shade"></div>
+      <div class="hero-content page-width">
+        <p class="eyebrow">Good food. Better company.</p>
+        <h1 id="hero-title">Bring your appetite.<br><em>We’ll bring the flavor.</em></h1>
+        <p class="hero-copy">Big, bright plates made for the moment you stop settling for ordinary.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore the menu <span aria-hidden="true">&#8594;</span></a>
+          <a class="button button-ghost" href="#deals">See today’s deals</a>
+        </div>
+      </div>
+      <svg class="steam" viewBox="0 0 76 100" aria-hidden="true" focusable="false"><path d="M18 87c-18-17 17-26 1-43s-4-23 2-30"/><path d="M39 87c-18-17 17-26 1-43s-4-23 2-30"/><path d="M60 87c-18-17 17-26 1-43s-4-23 2-30"/></svg>
+      <div class="hero-note" aria-hidden="true"><span>Made fresh</span><span class="hero-note-line"></span><span>Delivered warm</span></div>
+      <button class="hero-video-toggle" type="button" aria-label="Pause hero video" hidden><svg viewBox="0 0 18 18" aria-hidden="true" focusable="false"><path d="M4 3h3v12H4zM11 3h3v12h-3z"/></svg></button>
+    </section>
+
+    <section id="menu" class="menu-section page-width" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <div><p class="eyebrow eyebrow-dark menu-eyebrow">The good stuff<svg class="menu-leaf" viewBox="0 0 32 36" aria-hidden="true" focusable="false"><path d="M6 29C3 15 13 6 27 5c1 14-7 24-21 24Z"/><path d="M5 32 23 10"/></svg></p><h2 id="menu-title">Pick your pleasure<span class="red-dot">.</span></h2></div>
+        <p class="section-intro">From smoky grills to cool sips, every craving has a home here.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter menu by category">
+        <button class="filter-button is-active" type="button" data-filter="All" aria-pressed="true">All <span>15</span></button>
+        <button class="filter-button" type="button" data-filter="Starters" aria-pressed="false">Starters <span>3</span></button>
+        <button class="filter-button" type="button" data-filter="Mains" aria-pressed="false">Mains <span>5</span></button>
+        <button class="filter-button" type="button" data-filter="Drinks" aria-pressed="false">Drinks <span>2</span></button>
+        <button class="filter-button" type="button" data-filter="Desserts" aria-pressed="false">Desserts <span>2</span></button>
+        <button class="filter-button" type="button" data-filter="Deals" aria-pressed="false">Deals <span>3</span></button>
+      </div>
+      <div id="menu-grid" class="menu-grid" aria-live="polite"></div>
+    </section>
+
+    <section id="deals" class="deal-banner" aria-labelledby="deals-title">
+      <div class="deal-inner page-width">
+        <div class="deal-copy"><p class="eyebrow">Gather round</p><h2 id="deals-title">More at the table.<br><em>Less on the bill.</em></h2><p>Our made-to-share deals turn a regular night into the one everyone remembers.</p><button class="button button-light" type="button" data-jump-filter="Deals">View all deals <span aria-hidden="true">&#8594;</span></button></div>
+        <div class="deal-stamp" aria-hidden="true"><strong>15</strong><span>flavor<br>makers</span></div>
+        <svg class="leaf-accent" viewBox="0 0 90 100" aria-hidden="true"><path d="M12 87C15 55 33 25 78 11c-1 39-19 65-66 76Z"/><path d="M14 85c22-20 39-38 60-66"/></svg>
+      </div>
+    </section>
+
+    <section id="story" class="story-section page-width" aria-labelledby="story-title">
+      <div class="story-aside"><span class="story-number">01</span><span class="story-rule"></span><span>Our kitchen note</span></div>
+      <div class="story-content"><p class="eyebrow eyebrow-dark">A little about us</p><h2 id="story-title">Food with a point of view<span class="red-dot">.</span></h2><p>CraveHouse is for the in-between moments: the late lunch, the impromptu gathering, the “let’s get one more thing” order. We put familiar favorites through our own lens, using punchy spices, fresh produce, and a little more care than expected.</p><div class="story-meta"><span>Freshly made</span><span>Always generous</span><span>Zero fuss</span></div></div>
+      <div class="bubble-cluster" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="page-width footer-inner"><a class="brand brand-footer" href="#top"><span class="brand-mark">C</span><span>Crave<span>House</span></span></a><p>Big flavor, right to your door.</p><nav aria-label="Footer navigation"><a href="#menu">Menu</a><a href="#deals">Deals</a><a href="#story">Our story</a></nav><small>© 2026 CraveHouse. Front-end demo.</small></div></footer>
+
+  <aside id="cart-drawer" class="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="drawer-backdrop" data-close-cart></div>
+    <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title">
+      <div class="drawer-header"><div><p class="eyebrow eyebrow-dark">Your order</p><h2 id="cart-title">Cart <span class="cart-title-count">(0)</span></h2></div><button class="icon-button" type="button" data-close-cart aria-label="Close cart">&times;</button></div>
+      <div id="cart-items" class="cart-items"></div>
+      <div class="cart-footer"><div class="cart-total"><span>Total</span><strong id="cart-total">$0.00</strong></div><button id="checkout-button" class="button button-primary button-wide" type="button">Continue to checkout <span aria-hidden="true">&#8594;</span></button></div>
+      <div id="checkout-panel" class="checkout-panel" hidden><div class="checkout-heading"><button class="back-button" type="button" data-back-cart>&#8592; Back to cart</button><h3>Almost at the table</h3><p>Tell us where to send the good stuff.</p></div><form id="checkout-form" novalidate><label for="full-name">Full name<input id="full-name" name="fullName" type="text" autocomplete="name" required><span class="field-error"></span></label><label for="phone">Phone number<input id="phone" name="phone" type="tel" autocomplete="tel" required><span class="field-error"></span></label><label for="address">Delivery address<textarea id="address" name="address" rows="3" autocomplete="street-address" required></textarea><span class="field-error"></span></label><fieldset><legend>Payment method</legend><label class="radio-label"><input type="radio" name="payment" value="Cash on Delivery" checked> Cash on Delivery</label><label class="radio-label"><input type="radio" name="payment" value="Card - Demo Only"> Card - Demo Only</label></fieldset><p id="checkout-message" class="form-message" role="alert"></p><button class="button button-primary button-wide" type="submit">Place order <span aria-hidden="true">&#8594;</span></button></form></div>
+      <div id="order-success" class="order-success" hidden><div class="success-mark" aria-hidden="true">&#10003;</div><p class="eyebrow eyebrow-dark">That’s a wrap</p><h3>Order confirmed.</h3><p>Your kitchen queue is moving. We’ll get your food on its way shortly.</p><p class="order-id">Order ID <strong id="order-id"></strong></p><button class="button button-primary button-wide" type="button" data-close-cart>Done</button></div>
+    </div>
+  </aside>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

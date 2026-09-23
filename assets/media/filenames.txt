@@ -1,0 +1,16 @@
+Compressed final images:
+01-biryani-meal-deal.webp
+02-bbq-platter-deal.webp
+03-zinger-combo-deal.webp
+04-rose-falooda.webp
+05-mint-mojito.webp
+06-peach-iced-tea.webp
+07-chicken-karahi.webp
+08-chicken-biryani.webp
+09-molten-chocolate-cake.webp
+10-chinese-rice.webp
+11-loaded-fries.webp
+12-chicken-tikka.webp
+13-seekh-kebab.webp
+14-alfredo-pasta.webp
+15-zinger-burger.webp
